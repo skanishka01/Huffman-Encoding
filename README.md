@@ -1,3 +1,4 @@
+#Huffman Encoding
 This project implements Huffman Encoding, a data compression algorithm that is used to reduce the size of data by assigning shorter codes to frequently occurring characters. It utilizes a priority queue and a binary tree to build a variable-length prefix code for each character in the input string.
 
 Features
