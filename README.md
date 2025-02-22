@@ -1,36 +1,62 @@
-#Huffman Encoding
-This project implements Huffman Encoding, a data compression algorithm that is used to reduce the size of data by assigning shorter codes to frequently occurring characters. It utilizes a priority queue and a binary tree to build a variable-length prefix code for each character in the input string.
+# Huffman Encoding
 
-Features
-Count the frequency of characters in the input string.
-Build a Huffman tree based on the character frequencies.
-Generate a lookup table of characters and their corresponding Huffman codes.
-Encode a given string using Huffman codes.
-Decode a given bit sequence using the Huffman tree.
-Getting Started
-Prerequisites
-To run this project, you need to have a C++ compiler installed on your machine.
+## Overview
+Huffman Encoding is a data compression algorithm that reduces the size of data by assigning shorter codes to frequently occurring characters. This project implements Huffman Encoding using a priority queue and a binary tree to build variable-length prefix codes for each character in the input string.
 
-Installation
-Clone the repository:
+---
 
-git clone https://github.com/your-username/huffman-encoding.git
-Compile the source code:
+## Features
+- **Count the frequency** of characters in the input string.
+- **Build a Huffman tree** based on character frequencies.
+- **Generate a lookup table** for characters and their corresponding Huffman codes.
+- **Encode a given string** using Huffman codes.
+- **Decode a bit sequence** back to the original string using the Huffman tree.
 
-g++ huffman_encoding.cpp -o huffman_encoding
-Usage
-Run the executable:
+---
 
-./huffman_encoding
+## Getting Started
 
-Enter the string you want to encode when prompted.
+### Prerequisites
+To run this project, ensure that you have a **C++ compiler** installed on your machine.
 
-The program will display the Huffman codes for each character in the input string, followed by the encoded string.
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/huffman-encoding.git
+   ```
+2. **Compile the source code:**
+   ```bash
+   g++ huffman_encoding.cpp -o huffman_encoding
+   ```
 
-The program will then decode the encoded string and display the original string.
+---
 
-Example
-![image](https://github.com/user-attachments/assets/a424b05f-9bdf-4243-865d-7eb1c5eb2f6e)
+## Usage
+1. **Run the executable:**
+   ```bash
+   ./huffman_encoding
+   ```
+2. **Enter the string** you want to encode when prompted.
+3. The program will display:
+   - **Huffman codes** for each character in the input string.
+   - **Encoded string** representation.
+   - **Decoded string**, verifying the correctness of the encoding.
 
-Contributing
-Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
+---
+
+## Example
+![Huffman Encoding Example](https://github.com/user-attachments/assets/a424b05f-9bdf-4243-865d-7eb1c5eb2f6e)
+
+---
+
+## Contributing
+Contributions are welcome! If you find any issues or want to add new features:
+- **Fork the repository**
+- **Create a new branch**
+- **Commit your changes**
+- **Open a pull request**
+
+Feel free to modify this README with additional details as needed!
+
+---
+
